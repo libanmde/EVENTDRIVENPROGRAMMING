@@ -1,3 +1,4 @@
+Mohamed Liban Abdullahi 25ZAD110782
 # Week 1 – Event-Driven Programming (Java)
 
 This repository contains the practical activities for Week 1:
@@ -43,7 +44,4 @@ javac Activity5/LibraryManagementSystem.java
 java -cp Activity5 LibraryManagementSystem
 ```
 
-For Activity 4, compile and run each file separately.
 
-## Before submitting
-Run the programs on your own computer, check that they work, and make any changes your lecturer requires. Be prepared to explain the event source, event, listener, handler, event queue, event loop, and Swing Event Dispatch Thread (EDT).
