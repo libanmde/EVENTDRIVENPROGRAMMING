@@ -1,0 +1,49 @@
+# Week 1 – Event-Driven Programming (Java)
+
+This repository contains the practical activities for Week 1:
+
+1. Spot the Components
+2. Build the Event Loop
+3. Procedural vs Event-Driven Calculators
+4. Debug the Event Handler
+5. Design Your Own Event-Driven System
+6. Final Self-Assessment
+
+## Requirements
+- Java Development Kit (JDK) 8 or later
+- A Java IDE or terminal
+- Swing is included with the standard JDK
+
+## Project structure
+- `Activity1/EDP_Components.md` – eight event-driven systems and review questions
+- `Activity2/EventLoop_Reflection.md` – event queue simulation and reflection
+- `Activity3/procedural/ProceduralCalculator.java`
+- `Activity3/eventdriven/EventDrivenCalculator.java`
+- `Activity3/Comparison_and_Reflection.md`
+- `Activity4/` – four corrected Java programs and `BugFixes.md`
+- `Activity5/` – Library Management System design and Java prototype
+- `Activity6/` – self-assessment answers and Week 1 summary
+
+## Compile and run examples
+
+From the repository root:
+
+```bash
+javac Activity3/procedural/ProceduralCalculator.java
+java -cp Activity3/procedural ProceduralCalculator
+```
+
+```bash
+javac Activity3/eventdriven/EventDrivenCalculator.java
+java -cp Activity3/eventdriven EventDrivenCalculator
+```
+
+```bash
+javac Activity5/LibraryManagementSystem.java
+java -cp Activity5 LibraryManagementSystem
+```
+
+For Activity 4, compile and run each file separately.
+
+## Before submitting
+Run the programs on your own computer, check that they work, and make any changes your lecturer requires. Be prepared to explain the event source, event, listener, handler, event queue, event loop, and Swing Event Dispatch Thread (EDT).
